@@ -1,1 +1,0 @@
-write kuberentes customer controller for custom resource definition (CRD), maybe even as operator

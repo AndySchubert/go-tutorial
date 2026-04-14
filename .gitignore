@@ -18,7 +18,12 @@
 bin/
 **/bin/
 
+# Excluded Folders/Files
+.vscode/
+python-update.sh
+kubernetes/
+grpc/
+context-package/
+
 # Separate repositories (managed independently)
-kubernetes/admission-webhook
-kubernetes/controller/sample-controller
 rss-aggregator
