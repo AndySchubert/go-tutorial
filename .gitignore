@@ -8,12 +8,17 @@
 # Test binary, built with `go test -c`
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+# Output of the go coverage tool
 *.out
 
-# Dependency directories (remove the comment below to include it)
+# Dependency directories
 # vendor/
 
 # Project specifics
 bin/
-/home/andys/Work/JobSearch/Portfolio/go-tutorial/bin/
+**/bin/
+
+# Separate repositories (managed independently)
+kubernetes/admission-webhook
+kubernetes/controller/sample-controller
+rss-aggregator
